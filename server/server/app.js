@@ -6,7 +6,10 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = 3005;
 
-mongoose.connect('mongodb://Yauhen:Pass123@ds163835.mlab.com:63835/graphql-tutorial', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://dzmitry:dzmitry@cluster0.nu6oo.mongodb.net/graphql-tutorial?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 app.use('/graphql', graphqlHTTP({
   schema,

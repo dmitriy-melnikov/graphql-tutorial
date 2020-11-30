@@ -1,0 +1,9 @@
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/graphql-tutorial.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/application/package-lock.json
+/LECTRUM/package-lock.json
+/server/package-lock.json
+/.idea/vcs.xml
